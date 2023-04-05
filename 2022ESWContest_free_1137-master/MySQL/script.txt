@@ -1,0 +1,12 @@
+CREATE DATABASE minky;
+USE minky;
+CREATE TABLE map;
+CREATE TABLE test(
+	id INT NOT NULL AUTO_INCREMENT,
+	위도 DOUBLE,
+	경도 DOUBLE,
+	날짜 DATE,
+	시간 TIME,
+	수위값 INT,
+	PRIMARY KEY(id)
+	);
